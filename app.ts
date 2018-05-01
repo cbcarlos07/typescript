@@ -1,8 +1,5 @@
 
-
-
-/*
-import { SpaceCraft } from "./base-ships";
+import { SpaceCraft, ContainerShip } from "./base-ships";
 import { MilleniumFalcon } from "./starfighters";
 import * as _ from 'lodash'
 
@@ -15,13 +12,10 @@ ship.jumpIntoMyperspace()
 let falcon  = new MilleniumFalcon()
 falcon.jumpIntoMyperspace()
 
-interface ContainerShip{
-    cargoContainers : number
-}
 
 let goodForTheJob  = ( ship : ContainerShip ) => ship.cargoContainers > 2
 
-console.log( `Is Falcon good for the job? ${goodForTheJob( falcon ) ? 'yes' : 'no'}` )*/
+console.log( `Is Falcon good for the job? ${goodForTheJob( falcon ) ? 'yes' : 'no'}` )
 /*
 
 let message = "Helpe me, Obi-Wan Kenobi. You're my only hope!"
