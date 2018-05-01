@@ -1,7 +1,7 @@
 {
  "compileOnSave" : true,
  "compilerOptions": {
-   "outDir": "dist",
+   "outDir": "dist", // gerar arquivos na pasta dist
    "noEmitOnError": false,
    "typeRoots": [
      "node_modules/@types"
